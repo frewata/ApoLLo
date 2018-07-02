@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.egasubekti.gamepgtk">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashscreenActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Tentang" />
+        <activity android:name=".Permainan1" />
+        <activity android:name=".Permainan2" />
+        <activity android:name=".Permainan3" />
+        <activity android:name=".Permainan4" />
+        <activity android:name=".Permainan5" />
+        <activity android:name=".BelajarActivity" />
+        <activity android:name=".Belajar1" />
+        <activity android:name=".Belajar2" />
+        <activity android:name=".Belajar3" />
+        <activity android:name=".Belajar4" />
+        <activity android:name=".Belajar5" />
+        <activity android:name=".Belajar6" />
+        <activity android:name=".Belajar7" />
+        <activity android:name=".MenuAwal"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/jawab1"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:layout_marginRight="10dp"
+                android:onClick="pilih1"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+
+            <ImageButton
+                android:id="@+id/jawab2"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+
+                android:onClick="pilih2"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/anggur" />
+
+            <ImageButton
+                android:id="@+id/jawab3"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:layout_marginLeft="10dp"
+                android:onClick="pilih3"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/jawab4"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:layout_marginRight="10dp"
+                android:onClick="pilih4"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+
+            <ImageButton
+                android:id="@+id/jawab5"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+
+                android:onClick="pilih5"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/anggur" />
+
+            <ImageButton
+                android:id="@+id/jawab6"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:layout_marginLeft="10dp"
+                android:onClick="pilih6"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/jawab7"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih7"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+
+            <ImageButton
+                android:id="@+id/jawab8"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih8"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/anggur" />
+
+            <ImageButton
+                android:id="@+id/jawab9"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih9"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/jawab10"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih10"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+
+            <ImageButton
+                android:id="@+id/jawab11"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih11"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/anggur" />
+
+            <ImageButton
+                android:id="@+id/jawab12"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih12"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/jawab13"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih13"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+
+            <ImageButton
+                android:id="@+id/jawab14"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih14"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/anggur" />
+
+            <ImageButton
+                android:id="@+id/jawab15"
+                android:layout_width="match_parent"
+            android:layout_height="115dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+
+                android:onClick="pilih15"
+                
+                android:scaleType="fitCenter"
+                android:background="@color/lightgray"
+                app:srcCompat="@drawable/apel" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

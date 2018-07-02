@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Permainan PGTK</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1682933933223626/3972502796</string>
+    <string name="interstitial_full_screen">ca-app-pub-1682933933223626/6925969197</string>
+
+    <string name="permainan1">Tebak Bentuk</string>
+    <string name="permainan2">Tebak Buah</string>
+    <string name="permainan3">Tebak Hewan</string>
+    <string name="permainan4">Tebak Sayur</string>
+    <string name="permainan5">Tebak Transportasi</string>
+    <string name="permainan6">Segera</string>
+    <string name="tentang">TENTANG</string>
+
+    <string name="judulPetunjuk">Petunjuk Permainan</string>
+    <string name="isiPetunjuk">Akan ada 10 soal yang akan dibacakan, setiap soal akan memiliki 4 pilihan jawaban. \n\nJika memilih jawaban benar mendapat nilai 10, jika memilih jawaban salah akan mendapat nilai 0.  \n\nSelamat bermain!</string>
+    <string name="tombolPetunjuk">Mulai Permainan</string>
+
+    <string name="nameUs">Tentang Kami.</string>
+    <string name="descriptionUs">Kami adalah Sijioto team. \nKami adalah team developer yang sedang berkembang dalam bidang Android. \nKami akan berusaha untuk membuat beberapa aplikasi yang bermanfaat bagi semua orang.</string>
+
+</resources>

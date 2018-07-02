@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+    <ImageView
+        android:id="@+id/logoUs"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:srcCompat="@drawable/icon"
+        android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/titlenameUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameUs"
+        android:textAllCaps="true"
+        android:textColor="@color/darkblue"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionUs"
+        android:textColor="@color/darkblue"
+        android:textSize="13dp"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/moreApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lihat Aplikasi Lain"
+        android:textColor="@color/colorAccent"
+        android:theme="@style/AppTheme"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/rateApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/deeppurple"
+        android:text="Beri Rating"
+        android:theme="@style/AppTheme"
+        android:padding="5dp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</LinearLayout>
